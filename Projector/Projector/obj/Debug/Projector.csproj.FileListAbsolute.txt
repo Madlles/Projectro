@@ -44,3 +44,6 @@ C:\Users\mf288\OneDrive\Рабочий стол\Madlles_project\Projector\Projec
 C:\Users\mf288\OneDrive\Рабочий стол\Madlles_project\Projector\Projector\obj\Debug\Projector.csproj.CoreCompileInputs.cache
 C:\Users\mf288\OneDrive\Рабочий стол\Madlles_project\Projector\Projector\obj\Debug\Projector.exe
 C:\Users\mf288\OneDrive\Рабочий стол\Madlles_project\Projector\Projector\obj\Debug\Projector.pdb
+C:\Users\mf288\OneDrive\Рабочий стол\Madlles_project\Projector\Projector\obj\Debug\Projector.Form3.resources
+C:\Users\mf288\OneDrive\Рабочий стол\Madlles_project\Projector\Projector\obj\Debug\Projector.Form4.resources
+C:\Users\mf288\OneDrive\Рабочий стол\Madlles_project\Projector\Projector\obj\Debug\Projector.Form5.resources

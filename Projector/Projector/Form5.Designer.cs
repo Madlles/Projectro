@@ -1,7 +1,6 @@
-﻿
-namespace Projector
+﻿namespace Projector
 {
-    partial class Form3
+    partial class Form5
     {
         /// <summary>
         /// Required designer variable.
@@ -42,12 +41,14 @@ namespace Projector
             this.Component_Type = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Model = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Manufacturer = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.label2 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.button_delete = new System.Windows.Forms.Button();
+            this.button_update = new System.Windows.Forms.Button();
+            this.button_add = new System.Windows.Forms.Button();
+            this.button_download = new System.Windows.Forms.Button();
             this.menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
             // menuStrip1
@@ -58,7 +59,7 @@ namespace Projector
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Size = new System.Drawing.Size(1366, 24);
-            this.menuStrip1.TabIndex = 0;
+            this.menuStrip1.TabIndex = 8;
             this.menuStrip1.Text = "menuStrip1";
             // 
             // действияToolStripMenuItem
@@ -75,14 +76,12 @@ namespace Projector
             this.конфигурацияПКToolStripMenuItem.Name = "конфигурацияПКToolStripMenuItem";
             this.конфигурацияПКToolStripMenuItem.Size = new System.Drawing.Size(174, 22);
             this.конфигурацияПКToolStripMenuItem.Text = "Конфигурация ПК";
-            this.конфигурацияПКToolStripMenuItem.Click += new System.EventHandler(this.конфигурацияПКToolStripMenuItem_Click);
             // 
             // главноеМенюToolStripMenuItem
             // 
             this.главноеМенюToolStripMenuItem.Name = "главноеМенюToolStripMenuItem";
             this.главноеМенюToolStripMenuItem.Size = new System.Drawing.Size(174, 22);
             this.главноеМенюToolStripMenuItem.Text = "Главное меню";
-            this.главноеМенюToolStripMenuItem.Click += new System.EventHandler(this.главноеМенюToolStripMenuItem_Click);
             // 
             // выходToolStripMenuItem
             // 
@@ -97,7 +96,6 @@ namespace Projector
             this.выходToolStripMenuItem1.Name = "выходToolStripMenuItem1";
             this.выходToolStripMenuItem1.Size = new System.Drawing.Size(109, 22);
             this.выходToolStripMenuItem1.Text = "Выход";
-            this.выходToolStripMenuItem1.Click += new System.EventHandler(this.выходToolStripMenuItem1_Click);
             // 
             // contextMenuStrip1
             // 
@@ -106,8 +104,6 @@ namespace Projector
             // 
             // dataGridView1
             // 
-            this.dataGridView1.AllowUserToAddRows = false;
-            this.dataGridView1.AllowUserToDeleteRows = false;
             this.dataGridView1.BackgroundColor = System.Drawing.SystemColors.Menu;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
@@ -115,12 +111,10 @@ namespace Projector
             this.Component_Type,
             this.Model,
             this.Manufacturer});
-            this.dataGridView1.Location = new System.Drawing.Point(12, 27);
+            this.dataGridView1.Location = new System.Drawing.Point(12, 33);
             this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.ReadOnly = true;
             this.dataGridView1.Size = new System.Drawing.Size(1346, 180);
-            this.dataGridView1.TabIndex = 2;
-            this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
+            this.dataGridView1.TabIndex = 9;
             // 
             // ID_Configyration
             // 
@@ -149,67 +143,74 @@ namespace Projector
             this.Manufacturer.ReadOnly = true;
             this.Manufacturer.Width = 400;
             // 
-            // label2
+            // groupBox1
             // 
-            this.label2.AutoSize = true;
-            this.label2.BackColor = System.Drawing.Color.Transparent;
-            this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(584, 345);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(276, 13);
-            this.label2.TabIndex = 4;
-            this.label2.Text = "Введите номер конфигурации, который хотите найти";
+            this.groupBox1.BackColor = System.Drawing.Color.Transparent;
+            this.groupBox1.Controls.Add(this.button_delete);
+            this.groupBox1.Controls.Add(this.button_update);
+            this.groupBox1.Controls.Add(this.button_add);
+            this.groupBox1.Controls.Add(this.button_download);
+            this.groupBox1.Location = new System.Drawing.Point(602, 253);
+            this.groupBox1.Name = "groupBox1";
+            this.groupBox1.Size = new System.Drawing.Size(185, 185);
+            this.groupBox1.TabIndex = 10;
+            this.groupBox1.TabStop = false;
+            this.groupBox1.Text = "Действия";
             // 
-            // textBox1
+            // button_delete
             // 
-            this.textBox1.Location = new System.Drawing.Point(663, 364);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(100, 20);
-            this.textBox1.TabIndex = 5;
+            this.button_delete.Location = new System.Drawing.Point(44, 121);
+            this.button_delete.Name = "button_delete";
+            this.button_delete.Size = new System.Drawing.Size(88, 28);
+            this.button_delete.TabIndex = 5;
+            this.button_delete.Text = "Удалить";
+            this.button_delete.UseVisualStyleBackColor = true;
             // 
-            // button1
+            // button_update
             // 
-            this.button1.Location = new System.Drawing.Point(679, 390);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(63, 22);
-            this.button1.TabIndex = 6;
-            this.button1.Text = "Поиск";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.button_update.Location = new System.Drawing.Point(44, 87);
+            this.button_update.Name = "button_update";
+            this.button_update.Size = new System.Drawing.Size(88, 28);
+            this.button_update.TabIndex = 4;
+            this.button_update.Text = "Обновить";
+            this.button_update.UseVisualStyleBackColor = true;
             // 
-            // button2
+            // button_add
             // 
-            this.button2.Location = new System.Drawing.Point(679, 415);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(63, 23);
-            this.button2.TabIndex = 7;
-            this.button2.Text = "Сброс";
-            this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
+            this.button_add.Location = new System.Drawing.Point(44, 53);
+            this.button_add.Name = "button_add";
+            this.button_add.Size = new System.Drawing.Size(88, 28);
+            this.button_add.TabIndex = 3;
+            this.button_add.Text = "Добавить";
+            this.button_add.UseVisualStyleBackColor = true;
             // 
-            // Form3
+            // button_download
+            // 
+            this.button_download.Location = new System.Drawing.Point(44, 19);
+            this.button_download.Name = "button_download";
+            this.button_download.Size = new System.Drawing.Size(88, 28);
+            this.button_download.TabIndex = 2;
+            this.button_download.Text = "Загрузить";
+            this.button_download.UseVisualStyleBackColor = true;
+            // 
+            // Form5
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::Projector.Properties.Resources._121013_red_background_hd_2048x1152_for_retina;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1366, 450);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.dataGridView1);
+            this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.menuStrip1);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
-            this.MainMenuStrip = this.menuStrip1;
+            this.Controls.Add(this.dataGridView1);
             this.MaximumSize = new System.Drawing.Size(1382, 489);
             this.MinimumSize = new System.Drawing.Size(1382, 489);
-            this.Name = "Form3";
-            this.Text = "Конфигурация ПК";
-            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.Form3_FormClosed);
+            this.Name = "Form5";
+            this.Text = "Form5";
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            this.groupBox1.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -219,19 +220,20 @@ namespace Projector
 
         private System.Windows.Forms.MenuStrip menuStrip1;
         private System.Windows.Forms.ToolStripMenuItem действияToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem конфигурацияПКToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem главноеМенюToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem выходToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem выходToolStripMenuItem1;
         private System.Windows.Forms.ContextMenuStrip contextMenuStrip1;
         private System.Windows.Forms.DataGridView dataGridView1;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.Button button1;
         private System.Windows.Forms.DataGridViewTextBoxColumn ID_Configyration;
         private System.Windows.Forms.DataGridViewTextBoxColumn Component_Type;
         private System.Windows.Forms.DataGridViewTextBoxColumn Model;
         private System.Windows.Forms.DataGridViewTextBoxColumn Manufacturer;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.ToolStripMenuItem выходToolStripMenuItem1;
-        private System.Windows.Forms.ToolStripMenuItem конфигурацияПКToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem главноеМенюToolStripMenuItem;
+        private System.Windows.Forms.GroupBox groupBox1;
+        private System.Windows.Forms.Button button_delete;
+        private System.Windows.Forms.Button button_update;
+        private System.Windows.Forms.Button button_add;
+        private System.Windows.Forms.Button button_download;
     }
 }

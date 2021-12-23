@@ -20,6 +20,7 @@ namespace Projector
 
         }
 
+        bool exp = true;
         private void button1_Click(object sender, EventArgs e)
         {
             string admin = "admin";
@@ -56,7 +57,15 @@ namespace Projector
 
             dbConnection.Close();
 
-            if (result == null && result1 == null || result == null || result1 == null)
+            if (log == admin && pas == adminPass)
+            {
+                Form4 frm4 = new Form4();
+                frm4.Owner = this; //Передаём вновь созданной форме её владельца.
+                frm4.Show();
+                Hide();
+            }
+
+            else if (result == null && result1 == null || result == null || result1 == null )
             {
                 MessageBox.Show("Данные введены не верно!");
                 
@@ -71,10 +80,7 @@ namespace Projector
                 Hide();
             }
 
-            if(log == admin && pas == adminPass)
-            {
-
-            }
+            
             
 
         }
@@ -255,6 +261,26 @@ namespace Projector
                     panel1.Location = new Point(258, panel1.Location.Y);
                 }
             }
+        }
+
+        private void Form1_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void label7_Click(object sender, EventArgs e)
+        {
+            
+            if(textBox1.Font == new Font("Microsoft Sans Serif", 8))
+            {
+                textBox1.Font = new Font("MS Outlook", 8);
+            }
+
+            if(textBox1.Font == new Font("MS Outlook", 8))
+            {
+                textBox1.Font = new Font("Microsoft Sans Serif", 8);
+            }
+
         }
     }
 
