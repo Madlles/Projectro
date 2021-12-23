@@ -187,7 +187,7 @@
             // textBox1
             // 
             this.textBox1.Font = new System.Drawing.Font("Bookshelf Symbol 7", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(2)));
-            this.textBox1.Location = new System.Drawing.Point(291, 213);
+            this.textBox1.Location = new System.Drawing.Point(299, 232);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(100, 18);
             this.textBox1.TabIndex = 4;
@@ -211,7 +211,7 @@
             this.button1.BackgroundImage = global::Projector.Properties.Resources.look_com_ua_2263;
             this.button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button1.Location = new System.Drawing.Point(299, 255);
+            this.button1.Location = new System.Drawing.Point(299, 256);
             this.button1.MaximumSize = new System.Drawing.Size(100, 25);
             this.button1.MinimumSize = new System.Drawing.Size(100, 25);
             this.button1.Name = "button1";
@@ -226,7 +226,7 @@
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.ForeColor = System.Drawing.Color.Snow;
-            this.label1.Location = new System.Drawing.Point(250, 187);
+            this.label1.Location = new System.Drawing.Point(296, 175);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(41, 13);
             this.label1.TabIndex = 6;
@@ -237,7 +237,7 @@
             this.label2.AutoSize = true;
             this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.ForeColor = System.Drawing.Color.Snow;
-            this.label2.Location = new System.Drawing.Point(243, 216);
+            this.label2.Location = new System.Drawing.Point(296, 213);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(48, 13);
             this.label2.TabIndex = 7;
@@ -257,7 +257,10 @@
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.Color.Transparent;
+            this.panel2.Controls.Add(this.label2);
+            this.panel2.Controls.Add(this.label1);
             this.panel2.Controls.Add(this.button1);
+            this.panel2.Controls.Add(this.textBox1);
             this.panel2.Location = new System.Drawing.Point(-8, -7);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(718, 425);
@@ -273,11 +276,8 @@
             this.BackgroundImage = global::Projector.Properties.Resources._121013_red_background_hd_2048x1152_for_retina;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.ClientSize = new System.Drawing.Size(697, 408);
-            this.Controls.Add(this.panel1);
             this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.label1);
-            this.Controls.Add(this.label2);
+            this.Controls.Add(this.panel1);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.panel2);
             this.ForeColor = System.Drawing.Color.Transparent;
@@ -293,6 +293,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.panel2.ResumeLayout(false);
+            this.panel2.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
