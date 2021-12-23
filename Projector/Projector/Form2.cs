@@ -18,29 +18,6 @@ namespace Projector
             InitializeComponent();
         }
 
-        private void местоНахождениеToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            Form3 frm3 = new Form3();
-            frm3.Owner = this; //Передаём вновь созданной форме её владельца.
-            frm3.Show();
-            Hide();
-        }
-
-        private void конфигурацияПкToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            Form4 frm4 = new Form4();
-            frm4.Owner = this;
-            frm4.Show();
-            Hide();
-        }
-
-        private void главноеМенюToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            Form2 frm2 = new Form2();
-            frm2.Owner = this;
-            frm2.Show();
-            Hide();
-        }
 
         private void Form2_Load(object sender, EventArgs e)
         {
@@ -60,7 +37,7 @@ namespace Projector
             {
                 while (dbReader.Read())
                 {
-                    dataGridView1.Rows.Add(dbReader["PC_ID"], dbReader["Location"], dbReader["ID_Configyration"]);
+                    dataGridView1.Rows.Add(dbReader["PC_ID"],dbReader["ID_Configyration"], dbReader["Location"], dbReader["Responsible_Person"]);
                 }
             }
 
@@ -76,6 +53,22 @@ namespace Projector
         private void label1_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void конфигурацияПКToolStripMenuItem_Click_1(object sender, EventArgs e)
+        {
+            Form3 frm3 = new Form3();
+            frm3.Owner = this;
+            frm3.Show();
+            Hide();
+        }
+
+        private void главноеМенюToolStripMenuItem_Click_1(object sender, EventArgs e)
+        {
+            Form2 frm2 = new Form2();
+            frm2.Owner = this;
+            frm2.Show();
+            Hide();
         }
     }
 }
