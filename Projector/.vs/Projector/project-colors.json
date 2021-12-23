@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "7bf5bde0-cbc9-4760-a59a-5393c58a0c03": {
+      "ProjectGuid": "7bf5bde0-cbc9-4760-a59a-5393c58a0c03",
+      "DisplayName": "Projector",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}
