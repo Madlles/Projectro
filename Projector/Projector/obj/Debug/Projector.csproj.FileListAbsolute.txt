@@ -1,0 +1,22 @@
+D:\REPOS\Projector\Projector\bin\Debug\Projector.exe.config
+D:\REPOS\Projector\Projector\bin\Debug\Projector.exe
+D:\REPOS\Projector\Projector\bin\Debug\Projector.pdb
+D:\REPOS\Projector\Projector\obj\Debug\Projector.csproj.AssemblyReference.cache
+D:\REPOS\Projector\Projector\obj\Debug\Projector.csproj.SuggestedBindingRedirects.cache
+D:\REPOS\Projector\Projector\obj\Debug\Projector.Form1.resources
+D:\REPOS\Projector\Projector\obj\Debug\Projector.Properties.Resources.resources
+D:\REPOS\Projector\Projector\obj\Debug\Projector.csproj.GenerateResource.cache
+D:\REPOS\Projector\Projector\obj\Debug\Projector.csproj.CoreCompileInputs.cache
+D:\REPOS\Projector\Projector\obj\Debug\Projector.exe
+D:\REPOS\Projector\Projector\obj\Debug\Projector.pdb
+C:\Users\mf288\OneDrive\Рабочий стол\Projector\Projector\bin\Debug\Projector.exe.config
+C:\Users\mf288\OneDrive\Рабочий стол\Projector\Projector\bin\Debug\Projector.exe
+C:\Users\mf288\OneDrive\Рабочий стол\Projector\Projector\bin\Debug\Projector.pdb
+C:\Users\mf288\OneDrive\Рабочий стол\Projector\Projector\obj\Debug\Projector.csproj.AssemblyReference.cache
+C:\Users\mf288\OneDrive\Рабочий стол\Projector\Projector\obj\Debug\Projector.csproj.SuggestedBindingRedirects.cache
+C:\Users\mf288\OneDrive\Рабочий стол\Projector\Projector\obj\Debug\Projector.Form1.resources
+C:\Users\mf288\OneDrive\Рабочий стол\Projector\Projector\obj\Debug\Projector.Properties.Resources.resources
+C:\Users\mf288\OneDrive\Рабочий стол\Projector\Projector\obj\Debug\Projector.csproj.GenerateResource.cache
+C:\Users\mf288\OneDrive\Рабочий стол\Projector\Projector\obj\Debug\Projector.csproj.CoreCompileInputs.cache
+C:\Users\mf288\OneDrive\Рабочий стол\Projector\Projector\obj\Debug\Projector.exe
+C:\Users\mf288\OneDrive\Рабочий стол\Projector\Projector\obj\Debug\Projector.pdb
