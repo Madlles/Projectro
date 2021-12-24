@@ -17,9 +17,9 @@ namespace Projector
         public Form1()
         {
             InitializeComponent();
-
         }
 
+        
         bool exp = true;
         private void button1_Click(object sender, EventArgs e)
         {
@@ -86,9 +86,11 @@ namespace Projector
         }
         
 
-        private void Form1_Load(object sender, EventArgs e)
+        async private void Form1_Load(object sender, EventArgs e)
         {
-
+            for (Opacity = 0; Opacity < 1; Opacity += 0.01)
+                await Task.Delay(1);
+            
         }
 
         private void label2_Click(object sender, EventArgs e)
@@ -124,7 +126,7 @@ namespace Projector
 
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
-            
+            textBox1.UseSystemPasswordChar = true;
         }
 
         private void pictureBox1_MouseClick(object sender, MouseEventArgs e)
@@ -221,7 +223,7 @@ namespace Projector
 
         private void textBox4_TextChanged(object sender, EventArgs e)
         {
-
+            textBox4.UseSystemPasswordChar = true;
         }
 
         private void textBox5_TextChanged(object sender, EventArgs e)
@@ -270,17 +272,19 @@ namespace Projector
 
         private void label7_Click(object sender, EventArgs e)
         {
+            textBox1.UseSystemPasswordChar = false;
+
+        }
+
+        private void label8_Click(object sender, EventArgs e)
+        {
+            textBox4.UseSystemPasswordChar = false;
             
-            if(textBox1.Font == new Font("Microsoft Sans Serif", 8))
-            {
-                textBox1.Font = new Font("MS Outlook", 8);
-            }
+        }
 
-            if(textBox1.Font == new Font("MS Outlook", 8))
-            {
-                textBox1.Font = new Font("Microsoft Sans Serif", 8);
-            }
-
+        private void webBrowser1_DocumentCompleted(object sender, WebBrowserDocumentCompletedEventArgs e)
+        {
+            
         }
     }
 

@@ -201,5 +201,16 @@ namespace Projector
         {
 
         }
+
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+
+        async private void Form4_Load(object sender, EventArgs e)
+        {
+            for (Opacity = 0; Opacity < 1; Opacity += 0.01)
+                await Task.Delay(1);
+        }
     }
 }

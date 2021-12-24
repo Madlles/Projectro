@@ -74,13 +74,13 @@
             // конфигурацияПКToolStripMenuItem
             // 
             this.конфигурацияПКToolStripMenuItem.Name = "конфигурацияПКToolStripMenuItem";
-            this.конфигурацияПКToolStripMenuItem.Size = new System.Drawing.Size(174, 22);
+            this.конфигурацияПКToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.конфигурацияПКToolStripMenuItem.Text = "Конфигурация ПК";
             // 
             // главноеМенюToolStripMenuItem
             // 
             this.главноеМенюToolStripMenuItem.Name = "главноеМенюToolStripMenuItem";
-            this.главноеМенюToolStripMenuItem.Size = new System.Drawing.Size(174, 22);
+            this.главноеМенюToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.главноеМенюToolStripMenuItem.Text = "Главное меню";
             // 
             // выходToolStripMenuItem
@@ -94,8 +94,9 @@
             // выходToolStripMenuItem1
             // 
             this.выходToolStripMenuItem1.Name = "выходToolStripMenuItem1";
-            this.выходToolStripMenuItem1.Size = new System.Drawing.Size(109, 22);
+            this.выходToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
             this.выходToolStripMenuItem1.Text = "Выход";
+            this.выходToolStripMenuItem1.Click += new System.EventHandler(this.выходToolStripMenuItem1_Click);
             // 
             // contextMenuStrip1
             // 
@@ -115,6 +116,7 @@
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.Size = new System.Drawing.Size(1346, 180);
             this.dataGridView1.TabIndex = 9;
+            this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
             // 
             // ID_Configyration
             // 
@@ -165,6 +167,7 @@
             this.button_delete.TabIndex = 5;
             this.button_delete.Text = "Удалить";
             this.button_delete.UseVisualStyleBackColor = true;
+            this.button_delete.Click += new System.EventHandler(this.button_delete_Click);
             // 
             // button_update
             // 
@@ -174,6 +177,7 @@
             this.button_update.TabIndex = 4;
             this.button_update.Text = "Обновить";
             this.button_update.UseVisualStyleBackColor = true;
+            this.button_update.Click += new System.EventHandler(this.button_update_Click);
             // 
             // button_add
             // 
@@ -183,6 +187,7 @@
             this.button_add.TabIndex = 3;
             this.button_add.Text = "Добавить";
             this.button_add.UseVisualStyleBackColor = true;
+            this.button_add.Click += new System.EventHandler(this.button_add_Click);
             // 
             // button_download
             // 
@@ -192,6 +197,7 @@
             this.button_download.TabIndex = 2;
             this.button_download.Text = "Загрузить";
             this.button_download.UseVisualStyleBackColor = true;
+            this.button_download.Click += new System.EventHandler(this.button_download_Click);
             // 
             // Form5
             // 
@@ -207,6 +213,7 @@
             this.MinimumSize = new System.Drawing.Size(1382, 489);
             this.Name = "Form5";
             this.Text = "Form5";
+            this.Load += new System.EventHandler(this.Form5_Load);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();

@@ -19,8 +19,11 @@ namespace Projector
         }
 
 
-        private void Form2_Load(object sender, EventArgs e)
+       async private void Form2_Load(object sender, EventArgs e)
         {
+            for (Opacity = 0; Opacity < 1; Opacity += 0.01)
+                await Task.Delay(1);
+
             string connectionString = "provider=Microsoft.Jet.OLEDB.4.0;Data Source=SystemDataBase.mdb";
             OleDbConnection dbConnection = new OleDbConnection(connectionString);
 

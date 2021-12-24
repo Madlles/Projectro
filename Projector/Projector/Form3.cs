@@ -129,6 +129,12 @@ namespace Projector
             frm2.Show();
             Hide();
         }
+
+        async private void Form3_Load(object sender, EventArgs e)
+        {
+            for (Opacity = 0; Opacity < 1; Opacity += 0.01)
+                await Task.Delay(1);
+        }
     }
     
 }

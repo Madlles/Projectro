@@ -79,7 +79,7 @@
             // конфигурацияПКToolStripMenuItem
             // 
             this.конфигурацияПКToolStripMenuItem.Name = "конфигурацияПКToolStripMenuItem";
-            this.конфигурацияПКToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.конфигурацияПКToolStripMenuItem.Size = new System.Drawing.Size(174, 22);
             this.конфигурацияПКToolStripMenuItem.Text = "Конфигурация ПК";
             this.конфигурацияПКToolStripMenuItem.Click += new System.EventHandler(this.конфигурацияПКToolStripMenuItem_Click);
             // 
@@ -100,7 +100,7 @@
             // выходToolStripMenuItem1
             // 
             this.выходToolStripMenuItem1.Name = "выходToolStripMenuItem1";
-            this.выходToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
+            this.выходToolStripMenuItem1.Size = new System.Drawing.Size(109, 22);
             this.выходToolStripMenuItem1.Text = "Выход";
             this.выходToolStripMenuItem1.Click += new System.EventHandler(this.выходToolStripMenuItem1_Click);
             // 
@@ -128,6 +128,7 @@
             this.dataGridView1.RowTemplate.Height = 24;
             this.dataGridView1.Size = new System.Drawing.Size(524, 231);
             this.dataGridView1.TabIndex = 8;
+            this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
             // 
             // PC_ID
             // 
@@ -226,6 +227,7 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Admin";
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.Form4_FormClosed);
+            this.Load += new System.EventHandler(this.Form4_Load);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
