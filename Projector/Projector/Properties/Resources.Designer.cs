@@ -63,39 +63,19 @@ namespace Projector.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap _121013_red_background_hd_2048x1152_for_retina {
-            get {
-                object obj = ResourceManager.GetObject("121013-red-background-hd-2048x1152-for-retina", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap _1603988632_36_p_yarkii_neonovii_fioletovii_fon_39 {
-            get {
-                object obj = ResourceManager.GetObject("1603988632_36-p-yarkii-neonovii-fioletovii-fon-39", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap _2A5 {
-            get {
-                object obj = ResourceManager.GetObject("2A5", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
-        /// </summary>
         internal static System.Drawing.Bitmap _513869_original {
             get {
-                object obj = ResourceManager.GetObject("513869_original", resourceCulture);
+                object obj = ResourceManager.GetObject("_513869_original", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap administrator_male_104px {
+            get {
+                object obj = ResourceManager.GetObject("administrator_male_104px", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -106,6 +86,16 @@ namespace Projector.Properties {
         internal static System.Drawing.Bitmap broom_104px {
             get {
                 object obj = ResourceManager.GetObject("broom_104px", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap checkmark_104px {
+            get {
+                object obj = ResourceManager.GetObject("checkmark_104px", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -143,9 +133,19 @@ namespace Projector.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap delete_104px1 {
+        internal static System.Drawing.Bitmap delete_24px {
             get {
-                object obj = ResourceManager.GetObject("delete_104px1", resourceCulture);
+                object obj = ResourceManager.GetObject("delete_24px", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap delete_96px {
+            get {
+                object obj = ResourceManager.GetObject("delete_96px", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -173,16 +173,6 @@ namespace Projector.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap hyperpc_logo_thumb {
-            get {
-                object obj = ResourceManager.GetObject("hyperpc_logo_thumb", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
-        /// </summary>
         internal static System.Drawing.Bitmap hyperx_logo {
             get {
                 object obj = ResourceManager.GetObject("hyperx_logo", resourceCulture);
@@ -196,47 +186,6 @@ namespace Projector.Properties {
         internal static System.Drawing.Bitmap invisible_104px {
             get {
                 object obj = ResourceManager.GetObject("invisible_104px", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap kisspng_red_x_x_mark_computer_icons_clip_art_red_x_png_5ab19105d9ebc7_5641284615215864378926 {
-            get {
-                object obj = ResourceManager.GetObject("kisspng-red-x-x-mark-computer-icons-clip-art-red-x-png-5ab19105d9ebc7.56412846152" +
-                        "15864378926", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap kisspng_red_x_x_mark_computer_icons_clip_art_red_x_png_5ab19105d9ebc71 {
-            get {
-                object obj = ResourceManager.GetObject("kisspng-red-x-x-mark-computer-icons-clip-art-red-x-png-5ab19105d9ebc71", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap look_com_ua_2263 {
-            get {
-                object obj = ResourceManager.GetObject("look.com.ua-2263", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap maxresdefault__1_ {
-            get {
-                object obj = ResourceManager.GetObject("maxresdefault (1)", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -264,9 +213,9 @@ namespace Projector.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Scarlett_forest {
+        internal static System.Drawing.Bitmap plus_math_104px {
             get {
-                object obj = ResourceManager.GetObject("Scarlett forest", resourceCulture);
+                object obj = ResourceManager.GetObject("plus_math_104px", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -307,26 +256,6 @@ namespace Projector.Properties {
         internal static System.Drawing.Bitmap WVw4hP8JLJw {
             get {
                 object obj = ResourceManager.GetObject("WVw4hP8JLJw", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap Рег {
-            get {
-                object obj = ResourceManager.GetObject("Рег", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap Рег1 {
-            get {
-                object obj = ResourceManager.GetObject("Рег1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

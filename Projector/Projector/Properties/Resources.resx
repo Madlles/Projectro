@@ -118,85 +118,64 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="close_window_104px" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\close_window_104px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="eye_104px" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\eye_104px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="2A5" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\2A5.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="system_task_104px" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\system_task_104px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="kisspng-red-x-x-mark-computer-icons-clip-art-red-x-png-5ab19105d9ebc7.5641284615215864378926" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\kisspng-red-x-x-mark-computer-icons-clip-art-red-x-png-5ab19105d9ebc7.5641284615215864378926.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Рег" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Рег.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="delete_104px1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\delete_104px1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Рег1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Рег1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="settings_104px" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\settings_104px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="delete_104px" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\delete_104px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="administrator_male_104px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\administrator_male_104px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="broom_104px" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\broom_104px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="kisspng-red-x-x-mark-computer-icons-clip-art-red-x-png-5ab19105d9ebc71" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\kisspng-red-x-x-mark-computer-icons-clip-art-red-x-png-5ab19105d9ebc7.5641284615215864378926.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="checkmark_104px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\checkmark_104px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="hyperpc_logo_thumb" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\hyperpc_logo_thumb.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="121013-red-background-hd-2048x1152-for-retina" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\121013-red-background-hd-2048x1152-for-retina.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Scarlett forest" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Scarlett forest.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="globe_104px" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\globe_104px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="password_104px" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\password_104px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="menu_104px" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\menu_104px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="invisible_104px" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\invisible_104px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="hyperx_logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\hyperx_logo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="513869_original" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\513869_original.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="view_details_104px" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\view_details_104px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="maxresdefault (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\maxresdefault (1).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="look.com.ua-2263" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\look.com.ua-2263.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="1603988632_36-p-yarkii-neonovii-fioletovii-fon-39" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\1603988632_36-p-yarkii-neonovii-fioletovii-fon-39.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="close_window_104px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\close_window_104px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="contacts_104px" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\contacts_104px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="delete_104px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\delete_104px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="delete_24px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\delete_24px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="delete_96px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\delete_96px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="eye_104px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\eye_104px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="globe_104px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\globe_104px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="hyperx_logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>hyperx_logo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="invisible_104px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\invisible_104px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="menu_104px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\menu_104px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="password_104px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\password_104px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="plus_math_104px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\plus_math_104px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="settings_104px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\settings_104px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="system_task_104px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\system_task_104px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="view_details_104px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\view_details_104px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="WVw4hP8JLJw" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\WVw4hP8JLJw.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <value>WVw4hP8JLJw.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_513869_original" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>513869_original.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

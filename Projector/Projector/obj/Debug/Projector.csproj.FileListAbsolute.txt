@@ -37,16 +37,11 @@ C:\Users\mf288\OneDrive\Рабочий стол\Madlles_project\Projector\Projec
 C:\Users\mf288\OneDrive\Рабочий стол\Madlles_project\Projector\Projector\bin\Debug\Projector.pdb
 C:\Users\mf288\OneDrive\Рабочий стол\Madlles_project\Projector\Projector\obj\Debug\Projector.csproj.AssemblyReference.cache
 C:\Users\mf288\OneDrive\Рабочий стол\Madlles_project\Projector\Projector\obj\Debug\Projector.csproj.SuggestedBindingRedirects.cache
-C:\Users\mf288\OneDrive\Рабочий стол\Madlles_project\Projector\Projector\obj\Debug\Projector.Form1.resources
-C:\Users\mf288\OneDrive\Рабочий стол\Madlles_project\Projector\Projector\obj\Debug\Projector.Form2.resources
 C:\Users\mf288\OneDrive\Рабочий стол\Madlles_project\Projector\Projector\obj\Debug\Projector.Properties.Resources.resources
 C:\Users\mf288\OneDrive\Рабочий стол\Madlles_project\Projector\Projector\obj\Debug\Projector.csproj.GenerateResource.cache
 C:\Users\mf288\OneDrive\Рабочий стол\Madlles_project\Projector\Projector\obj\Debug\Projector.csproj.CoreCompileInputs.cache
 C:\Users\mf288\OneDrive\Рабочий стол\Madlles_project\Projector\Projector\obj\Debug\Projector.exe
 C:\Users\mf288\OneDrive\Рабочий стол\Madlles_project\Projector\Projector\obj\Debug\Projector.pdb
-C:\Users\mf288\OneDrive\Рабочий стол\Madlles_project\Projector\Projector\obj\Debug\Projector.Form3.resources
-C:\Users\mf288\OneDrive\Рабочий стол\Madlles_project\Projector\Projector\obj\Debug\Projector.Form4.resources
-C:\Users\mf288\OneDrive\Рабочий стол\Madlles_project\Projector\Projector\obj\Debug\Projector.Form5.resources
 C:\Users\mf288\OneDrive\Рабочий стол\Madlles_project\Projector\Projector\obj\Debug\Projector.Login.resources
 C:\Users\mf288\OneDrive\Рабочий стол\Madlles_project\Projector\Projector\obj\Debug\Projector.csproj.CopyComplete
 C:\Users\mf288\OneDrive\Рабочий стол\Madlles_project\Projector\Projector\bin\Debug\Bunifu_UI_v1.5.3.dll
@@ -66,3 +61,10 @@ C:\Users\mf288\OneDrive\Рабочий стол\Madlles_project\Projector\Projec
 C:\Users\mf288\OneDrive\Рабочий стол\Madlles_project\Projector\Projector\obj\Debug\Projector.FormConfigyrationPC.resources
 C:\Users\mf288\OneDrive\Рабочий стол\Madlles_project\Projector\Projector\bin\Debug\Bunifu.UI.WinForms.BunifuDataGridView.dll
 C:\Users\mf288\OneDrive\Рабочий стол\Madlles_project\Projector\Projector\bin\Debug\Bunifu.UI.WinForms.BunifuDataGridView.xml
+C:\Users\mf288\OneDrive\Рабочий стол\Madlles_project\Projector\Projector\bin\Debug\Bunifu.UI.WinForms.BunifuPages.dll
+C:\Users\mf288\OneDrive\Рабочий стол\Madlles_project\Projector\Projector\bin\Debug\Bunifu.UI.WinForms.ToggleSwitch.dll
+C:\Users\mf288\OneDrive\Рабочий стол\Madlles_project\Projector\Projector\bin\Debug\Bunifu.UI.WinForms.BunifuPages.xml
+C:\Users\mf288\OneDrive\Рабочий стол\Madlles_project\Projector\Projector\bin\Debug\Bunifu.UI.WinForms.ToggleSwitch.xml
+C:\Users\mf288\OneDrive\Рабочий стол\Madlles_project\Projector\Projector\obj\Debug\Projector.FormSettings.resources
+C:\Users\mf288\OneDrive\Рабочий стол\Madlles_project\Projector\Projector\bin\Debug\Bunifu.UI.WinForms.BunifuSlider.dll
+C:\Users\mf288\OneDrive\Рабочий стол\Madlles_project\Projector\Projector\bin\Debug\Bunifu.UI.WinForms.BunifuSlider.xml
