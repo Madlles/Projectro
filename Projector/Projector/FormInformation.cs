@@ -103,6 +103,11 @@ namespace Projector
             dbReader.Close();
             dbConnection.Close();
         }
+
+        private void bunifuCustomDataGrid1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
     }
     
 }

@@ -111,5 +111,10 @@ namespace Projector
         {
             
         }
+
+        private void bunifuCustomDataGrid1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
     }
 }

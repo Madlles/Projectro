@@ -127,7 +127,10 @@ namespace Projector
 
             if (log == admin && pas == adminPass)
             {
-
+                Admin ad = new Admin();
+                ad.Owner = this; //Передаём вновь созданной форме её владельца.
+                ad.Show();
+                Hide();
             }
 
             else if (result == null && result1 == null || result == null || result1 == null)
@@ -138,7 +141,6 @@ namespace Projector
 
             else
             {
-                MessageBox.Show($"Добро пожаловать,{result}!");
                 Worker wk = new Worker();
                 wk.Owner = this; //Передаём вновь созданной форме её владельца.
                 wk.Show();
@@ -219,6 +221,11 @@ namespace Projector
         }
 
         private void panel3_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void panel3_Paint_1(object sender, PaintEventArgs e)
         {
 
         }

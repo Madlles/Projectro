@@ -63,9 +63,39 @@ namespace Projector.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _2A51 {
+            get {
+                object obj = ResourceManager.GetObject("2A51", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap _513869_original {
             get {
                 object obj = ResourceManager.GetObject("_513869_original", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _6oa {
+            get {
+                object obj = ResourceManager.GetObject("6oa", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _9lZV {
+            get {
+                object obj = ResourceManager.GetObject("9lZV", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -113,6 +143,46 @@ namespace Projector.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Comp_1 {
+            get {
+                object obj = ResourceManager.GetObject("Comp 1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Comp_1_4 {
+            get {
+                object obj = ResourceManager.GetObject("Comp 1_4", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Comp_1_41 {
+            get {
+                object obj = ResourceManager.GetObject("Comp 1_41", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Comp_11 {
+            get {
+                object obj = ResourceManager.GetObject("Comp 11", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap contacts_104px {
             get {
                 object obj = ResourceManager.GetObject("contacts_104px", resourceCulture);
@@ -146,6 +216,16 @@ namespace Projector.Properties {
         internal static System.Drawing.Bitmap delete_96px {
             get {
                 object obj = ResourceManager.GetObject("delete_96px", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap dobro_pozhlovat_15 {
+            get {
+                object obj = ResourceManager.GetObject("dobro-pozhlovat-15", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -216,6 +296,16 @@ namespace Projector.Properties {
         internal static System.Drawing.Bitmap plus_math_104px {
             get {
                 object obj = ResourceManager.GetObject("plus_math_104px", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Pre_comp_4000 {
+            get {
+                object obj = ResourceManager.GetObject("Pre-comp 4000", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

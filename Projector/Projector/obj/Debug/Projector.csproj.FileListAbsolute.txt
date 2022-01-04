@@ -68,3 +68,49 @@ C:\Users\mf288\OneDrive\Рабочий стол\Madlles_project\Projector\Projec
 C:\Users\mf288\OneDrive\Рабочий стол\Madlles_project\Projector\Projector\obj\Debug\Projector.FormSettings.resources
 C:\Users\mf288\OneDrive\Рабочий стол\Madlles_project\Projector\Projector\bin\Debug\Bunifu.UI.WinForms.BunifuSlider.dll
 C:\Users\mf288\OneDrive\Рабочий стол\Madlles_project\Projector\Projector\bin\Debug\Bunifu.UI.WinForms.BunifuSlider.xml
+C:\Users\mf288\OneDrive\Рабочий стол\Madlles_project\Projector\Projector\bin\Debug\Bunifu.UI.WinForms.BunifuPictureBox.dll
+C:\Users\mf288\OneDrive\Рабочий стол\Madlles_project\Projector\Projector\bin\Debug\MaterialSkin.dll
+C:\Users\mf288\OneDrive\Рабочий стол\Madlles_project\Projector\Projector\bin\Debug\Bunifu.UI.WinForms.BunifuPictureBox.xml
+D:\Madlles_project\Projector\Projector\obj\Debug\Projector.csproj.AssemblyReference.cache
+D:\Madlles_project\Projector\Projector\obj\Debug\Projector.csproj.SuggestedBindingRedirects.cache
+D:\Madlles_project\Projector\Projector\obj\Debug\Projector.Admin.resources
+D:\Madlles_project\Projector\Projector\obj\Debug\Projector.FormConfigyrationPC.resources
+D:\Madlles_project\Projector\Projector\obj\Debug\Projector.FormInformation.resources
+D:\Madlles_project\Projector\Projector\obj\Debug\Projector.FormSettings.resources
+D:\Madlles_project\Projector\Projector\obj\Debug\Projector.Login.resources
+D:\Madlles_project\Projector\Projector\obj\Debug\Projector.Properties.Resources.resources
+D:\Madlles_project\Projector\Projector\obj\Debug\Projector.Worker.resources
+D:\Madlles_project\Projector\Projector\obj\Debug\Projector.csproj.GenerateResource.cache
+D:\Madlles_project\Projector\Projector\obj\Debug\Projector.csproj.CoreCompileInputs.cache
+D:\Madlles_project\Projector\Projector\obj\Debug\Projector.exe
+D:\Madlles_project\Projector\Projector\obj\Debug\Projector.pdb
+D:\Madlles_project\Projector\Projector\bin\Debug\Projector.exe.config
+D:\Madlles_project\Projector\Projector\bin\Debug\Projector.exe
+D:\Madlles_project\Projector\Projector\bin\Debug\Projector.pdb
+D:\Madlles_project\Projector\Projector\bin\Debug\Bunifu.UI.WinForms.BunifuButton.dll
+D:\Madlles_project\Projector\Projector\bin\Debug\Bunifu.UI.WinForms.BunifuDataGridView.dll
+D:\Madlles_project\Projector\Projector\bin\Debug\Bunifu.UI.WinForms.BunifuDatePicker.dll
+D:\Madlles_project\Projector\Projector\bin\Debug\Bunifu.UI.WinForms.BunifuLabel.dll
+D:\Madlles_project\Projector\Projector\bin\Debug\Bunifu.UI.WinForms.BunifuPages.dll
+D:\Madlles_project\Projector\Projector\bin\Debug\Bunifu.UI.WinForms.BunifuPictureBox.dll
+D:\Madlles_project\Projector\Projector\bin\Debug\Bunifu.UI.WinForms.BunifuSlider.dll
+D:\Madlles_project\Projector\Projector\bin\Debug\Bunifu.UI.WinForms.BunifuTransition.dll
+D:\Madlles_project\Projector\Projector\bin\Debug\Bunifu.UI.WinForms.ToggleSwitch.dll
+D:\Madlles_project\Projector\Projector\bin\Debug\Bunifu_UI_v1.5.3.dll
+D:\Madlles_project\Projector\Projector\bin\Debug\FontAwesome.Sharp.dll
+D:\Madlles_project\Projector\Projector\bin\Debug\Guna.UI2.dll
+D:\Madlles_project\Projector\Projector\bin\Debug\MaterialSkin.dll
+D:\Madlles_project\Projector\Projector\bin\Debug\Bunifu.UI.WinForms.BunifuButton.xml
+D:\Madlles_project\Projector\Projector\bin\Debug\Bunifu.UI.WinForms.BunifuDataGridView.xml
+D:\Madlles_project\Projector\Projector\bin\Debug\Bunifu.UI.WinForms.BunifuDatePicker.xml
+D:\Madlles_project\Projector\Projector\bin\Debug\Bunifu.UI.WinForms.BunifuLabel.xml
+D:\Madlles_project\Projector\Projector\bin\Debug\Bunifu.UI.WinForms.BunifuPages.xml
+D:\Madlles_project\Projector\Projector\bin\Debug\Bunifu.UI.WinForms.BunifuPictureBox.xml
+D:\Madlles_project\Projector\Projector\bin\Debug\Bunifu.UI.WinForms.BunifuSlider.xml
+D:\Madlles_project\Projector\Projector\bin\Debug\Bunifu.UI.WinForms.BunifuTransition.xml
+D:\Madlles_project\Projector\Projector\bin\Debug\Bunifu.UI.WinForms.ToggleSwitch.xml
+D:\Madlles_project\Projector\Projector\bin\Debug\Bunifu_UI_v1.5.3.xml
+D:\Madlles_project\Projector\Projector\obj\Debug\Projector.csproj.CopyComplete
+D:\Madlles_project\Projector\Projector\obj\Debug\Projector.FormAYTHAdmin.resources
+D:\Madlles_project\Projector\Projector\obj\Debug\Projector.FormConfigyrationPCAdmin.resources
+D:\Madlles_project\Projector\Projector\obj\Debug\Projector.FormInformattionAdmin.resources

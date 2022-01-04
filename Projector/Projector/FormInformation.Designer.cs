@@ -33,15 +33,15 @@
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
             this.bunifuElipse1 = new Bunifu.Framework.UI.BunifuElipse(this.components);
             this.bunifuCustomDataGrid1 = new Bunifu.Framework.UI.BunifuCustomDataGrid();
+            this.PC_ID = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.ID_Configyration = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Location = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Responsible_Person = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.guna2GradientButton1 = new Guna.UI2.WinForms.Guna2GradientButton();
             this.bunifuMaterialTextbox1 = new Bunifu.Framework.UI.BunifuMaterialTextbox();
             this.guna2GradientButton2 = new Guna.UI2.WinForms.Guna2GradientButton();
             this.bunifuElipse2 = new Bunifu.Framework.UI.BunifuElipse(this.components);
             this.bunifuImageButton1 = new Bunifu.Framework.UI.BunifuImageButton();
-            this.PC_ID = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.ID_Configyration = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Location = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Responsible_Person = new System.Windows.Forms.DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)(this.bunifuCustomDataGrid1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.bunifuImageButton1)).BeginInit();
             this.SuspendLayout();
@@ -85,6 +85,31 @@
             this.bunifuCustomDataGrid1.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
             this.bunifuCustomDataGrid1.Size = new System.Drawing.Size(442, 150);
             this.bunifuCustomDataGrid1.TabIndex = 0;
+            this.bunifuCustomDataGrid1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.bunifuCustomDataGrid1_CellContentClick);
+            // 
+            // PC_ID
+            // 
+            this.PC_ID.HeaderText = "Номер ПК";
+            this.PC_ID.Name = "PC_ID";
+            this.PC_ID.ReadOnly = true;
+            // 
+            // ID_Configyration
+            // 
+            this.ID_Configyration.HeaderText = "Номер конфигурации";
+            this.ID_Configyration.Name = "ID_Configyration";
+            this.ID_Configyration.ReadOnly = true;
+            // 
+            // Location
+            // 
+            this.Location.HeaderText = "Место нахождение";
+            this.Location.Name = "Location";
+            this.Location.ReadOnly = true;
+            // 
+            // Responsible_Person
+            // 
+            this.Responsible_Person.HeaderText = "Ответственное лицо";
+            this.Responsible_Person.Name = "Responsible_Person";
+            this.Responsible_Person.ReadOnly = true;
             // 
             // guna2GradientButton1
             // 
@@ -163,30 +188,6 @@
             this.bunifuImageButton1.TabStop = false;
             this.bunifuImageButton1.Zoom = 10;
             this.bunifuImageButton1.Click += new System.EventHandler(this.bunifuImageButton1_Click);
-            // 
-            // PC_ID
-            // 
-            this.PC_ID.HeaderText = "Номер ПК";
-            this.PC_ID.Name = "PC_ID";
-            this.PC_ID.ReadOnly = true;
-            // 
-            // ID_Configyration
-            // 
-            this.ID_Configyration.HeaderText = "Номер конфигурации";
-            this.ID_Configyration.Name = "ID_Configyration";
-            this.ID_Configyration.ReadOnly = true;
-            // 
-            // Location
-            // 
-            this.Location.HeaderText = "Место нахождение";
-            this.Location.Name = "Location";
-            this.Location.ReadOnly = true;
-            // 
-            // Responsible_Person
-            // 
-            this.Responsible_Person.HeaderText = "Ответственное лицо";
-            this.Responsible_Person.Name = "Responsible_Person";
-            this.Responsible_Person.ReadOnly = true;
             // 
             // FormInformation
             // 

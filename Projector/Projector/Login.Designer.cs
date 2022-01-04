@@ -34,37 +34,37 @@
             this.bunifuDragControl1 = new Bunifu.Framework.UI.BunifuDragControl(this.components);
             this.panel3 = new System.Windows.Forms.Panel();
             this.label2 = new System.Windows.Forms.Label();
+            this.guna2CirclePictureBox1 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
+            this.bunifuImageButton4 = new Bunifu.Framework.UI.BunifuImageButton();
             this.panel4 = new System.Windows.Forms.Panel();
             this.guna2CustomGradientPanel1 = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
+            this.bunifuImageButton5 = new Bunifu.Framework.UI.BunifuImageButton();
             this.bunifuFlatButton2 = new Bunifu.Framework.UI.BunifuFlatButton();
             this.bunifuMaterialTextbox6 = new Bunifu.Framework.UI.BunifuMaterialTextbox();
             this.bunifuMaterialTextbox5 = new Bunifu.Framework.UI.BunifuMaterialTextbox();
             this.bunifuMaterialTextbox4 = new Bunifu.Framework.UI.BunifuMaterialTextbox();
             this.bunifuMaterialTextbox1 = new Bunifu.Framework.UI.BunifuMaterialTextbox();
             this.label3 = new System.Windows.Forms.Label();
+            this.bunifuImageButton1 = new Bunifu.Framework.UI.BunifuImageButton();
             this.bunifuFlatButton1 = new Bunifu.Framework.UI.BunifuFlatButton();
             this.label1 = new System.Windows.Forms.Label();
+            this.bunifuImageButton3 = new Bunifu.Framework.UI.BunifuImageButton();
             this.bunifuMaterialTextbox3 = new Bunifu.Framework.UI.BunifuMaterialTextbox();
+            this.bunifuImageButton2 = new Bunifu.Framework.UI.BunifuImageButton();
             this.bunifuMaterialTextbox2 = new Bunifu.Framework.UI.BunifuMaterialTextbox();
             this.bunifuLabel1 = new Bunifu.UI.WinForms.BunifuLabel();
             this.panel2 = new System.Windows.Forms.Panel();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.guna2CirclePictureBox1 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
-            this.bunifuImageButton4 = new Bunifu.Framework.UI.BunifuImageButton();
-            this.bunifuImageButton5 = new Bunifu.Framework.UI.BunifuImageButton();
-            this.bunifuImageButton1 = new Bunifu.Framework.UI.BunifuImageButton();
-            this.bunifuImageButton3 = new Bunifu.Framework.UI.BunifuImageButton();
-            this.bunifuImageButton2 = new Bunifu.Framework.UI.BunifuImageButton();
             this.panel3.SuspendLayout();
-            this.panel4.SuspendLayout();
-            this.guna2CustomGradientPanel1.SuspendLayout();
-            this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.bunifuImageButton4)).BeginInit();
+            this.panel4.SuspendLayout();
+            this.guna2CustomGradientPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.bunifuImageButton5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.bunifuImageButton1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.bunifuImageButton3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.bunifuImageButton2)).BeginInit();
+            this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // bunifuElipse1
@@ -92,6 +92,7 @@
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(422, 469);
             this.panel3.TabIndex = 2;
+            this.panel3.Paint += new System.Windows.Forms.PaintEventHandler(this.panel3_Paint_1);
             // 
             // label2
             // 
@@ -103,6 +104,31 @@
             this.label2.TabIndex = 4;
             this.label2.Text = "Вход";
             this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // guna2CirclePictureBox1
+            // 
+            this.guna2CirclePictureBox1.Image = global::Projector.Properties.Resources._513869_original;
+            this.guna2CirclePictureBox1.Location = new System.Drawing.Point(165, 3);
+            this.guna2CirclePictureBox1.Name = "guna2CirclePictureBox1";
+            this.guna2CirclePictureBox1.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
+            this.guna2CirclePictureBox1.ShadowDecoration.Parent = this.guna2CirclePictureBox1;
+            this.guna2CirclePictureBox1.Size = new System.Drawing.Size(110, 106);
+            this.guna2CirclePictureBox1.TabIndex = 3;
+            this.guna2CirclePictureBox1.TabStop = false;
+            // 
+            // bunifuImageButton4
+            // 
+            this.bunifuImageButton4.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.bunifuImageButton4.Image = global::Projector.Properties.Resources.delete_104px;
+            this.bunifuImageButton4.ImageActive = null;
+            this.bunifuImageButton4.Location = new System.Drawing.Point(379, 12);
+            this.bunifuImageButton4.Name = "bunifuImageButton4";
+            this.bunifuImageButton4.Size = new System.Drawing.Size(31, 25);
+            this.bunifuImageButton4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.bunifuImageButton4.TabIndex = 2;
+            this.bunifuImageButton4.TabStop = false;
+            this.bunifuImageButton4.Zoom = 10;
+            this.bunifuImageButton4.Click += new System.EventHandler(this.bunifuImageButton4_Click);
             // 
             // panel4
             // 
@@ -141,6 +167,19 @@
             this.guna2CustomGradientPanel1.Size = new System.Drawing.Size(344, 284);
             this.guna2CustomGradientPanel1.TabIndex = 6;
             this.guna2CustomGradientPanel1.MouseEnter += new System.EventHandler(this.guna2CustomGradientPanel1_MouseEnter);
+            // 
+            // bunifuImageButton5
+            // 
+            this.bunifuImageButton5.Image = global::Projector.Properties.Resources.eye_104px;
+            this.bunifuImageButton5.ImageActive = global::Projector.Properties.Resources.invisible_104px;
+            this.bunifuImageButton5.Location = new System.Drawing.Point(310, 136);
+            this.bunifuImageButton5.Name = "bunifuImageButton5";
+            this.bunifuImageButton5.Size = new System.Drawing.Size(28, 25);
+            this.bunifuImageButton5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.bunifuImageButton5.TabIndex = 8;
+            this.bunifuImageButton5.TabStop = false;
+            this.bunifuImageButton5.Zoom = 10;
+            this.bunifuImageButton5.Click += new System.EventHandler(this.bunifuImageButton5_Click);
             // 
             // bunifuFlatButton2
             // 
@@ -286,6 +325,19 @@
             this.label3.TabIndex = 0;
             this.label3.Text = "Регистрация";
             // 
+            // bunifuImageButton1
+            // 
+            this.bunifuImageButton1.Image = global::Projector.Properties.Resources.eye_104px;
+            this.bunifuImageButton1.ImageActive = global::Projector.Properties.Resources.invisible_104px;
+            this.bunifuImageButton1.Location = new System.Drawing.Point(279, 203);
+            this.bunifuImageButton1.Name = "bunifuImageButton1";
+            this.bunifuImageButton1.Size = new System.Drawing.Size(28, 25);
+            this.bunifuImageButton1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.bunifuImageButton1.TabIndex = 7;
+            this.bunifuImageButton1.TabStop = false;
+            this.bunifuImageButton1.Zoom = 10;
+            this.bunifuImageButton1.MouseClick += new System.Windows.Forms.MouseEventHandler(this.bunifuImageButton1_MouseClick);
+            // 
             // bunifuFlatButton1
             // 
             this.bunifuFlatButton1.Active = false;
@@ -336,6 +388,18 @@
             this.label1.Text = "Сбросить пароль";
             this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
+            // bunifuImageButton3
+            // 
+            this.bunifuImageButton3.Image = global::Projector.Properties.Resources.password_104px;
+            this.bunifuImageButton3.ImageActive = null;
+            this.bunifuImageButton3.Location = new System.Drawing.Point(313, 203);
+            this.bunifuImageButton3.Name = "bunifuImageButton3";
+            this.bunifuImageButton3.Size = new System.Drawing.Size(28, 25);
+            this.bunifuImageButton3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.bunifuImageButton3.TabIndex = 3;
+            this.bunifuImageButton3.TabStop = false;
+            this.bunifuImageButton3.Zoom = 0;
+            // 
             // bunifuMaterialTextbox3
             // 
             this.bunifuMaterialTextbox3.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.None;
@@ -359,6 +423,18 @@
             this.bunifuMaterialTextbox3.TabIndex = 2;
             this.bunifuMaterialTextbox3.Text = "Password";
             this.bunifuMaterialTextbox3.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            // 
+            // bunifuImageButton2
+            // 
+            this.bunifuImageButton2.Image = global::Projector.Properties.Resources.contacts_104px;
+            this.bunifuImageButton2.ImageActive = null;
+            this.bunifuImageButton2.Location = new System.Drawing.Point(313, 137);
+            this.bunifuImageButton2.Name = "bunifuImageButton2";
+            this.bunifuImageButton2.Size = new System.Drawing.Size(28, 25);
+            this.bunifuImageButton2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.bunifuImageButton2.TabIndex = 1;
+            this.bunifuImageButton2.TabStop = false;
+            this.bunifuImageButton2.Zoom = 0;
             // 
             // bunifuMaterialTextbox2
             // 
@@ -419,81 +495,6 @@
             this.panel1.Size = new System.Drawing.Size(422, 469);
             this.panel1.TabIndex = 0;
             // 
-            // guna2CirclePictureBox1
-            // 
-            this.guna2CirclePictureBox1.Image = global::Projector.Properties.Resources._513869_original;
-            this.guna2CirclePictureBox1.Location = new System.Drawing.Point(165, 3);
-            this.guna2CirclePictureBox1.Name = "guna2CirclePictureBox1";
-            this.guna2CirclePictureBox1.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
-            this.guna2CirclePictureBox1.ShadowDecoration.Parent = this.guna2CirclePictureBox1;
-            this.guna2CirclePictureBox1.Size = new System.Drawing.Size(110, 106);
-            this.guna2CirclePictureBox1.TabIndex = 3;
-            this.guna2CirclePictureBox1.TabStop = false;
-            // 
-            // bunifuImageButton4
-            // 
-            this.bunifuImageButton4.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.bunifuImageButton4.Image = global::Projector.Properties.Resources.delete_104px;
-            this.bunifuImageButton4.ImageActive = null;
-            this.bunifuImageButton4.Location = new System.Drawing.Point(379, 12);
-            this.bunifuImageButton4.Name = "bunifuImageButton4";
-            this.bunifuImageButton4.Size = new System.Drawing.Size(31, 25);
-            this.bunifuImageButton4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.bunifuImageButton4.TabIndex = 2;
-            this.bunifuImageButton4.TabStop = false;
-            this.bunifuImageButton4.Zoom = 10;
-            this.bunifuImageButton4.Click += new System.EventHandler(this.bunifuImageButton4_Click);
-            // 
-            // bunifuImageButton5
-            // 
-            this.bunifuImageButton5.Image = global::Projector.Properties.Resources.eye_104px;
-            this.bunifuImageButton5.ImageActive = global::Projector.Properties.Resources.invisible_104px;
-            this.bunifuImageButton5.Location = new System.Drawing.Point(310, 136);
-            this.bunifuImageButton5.Name = "bunifuImageButton5";
-            this.bunifuImageButton5.Size = new System.Drawing.Size(28, 25);
-            this.bunifuImageButton5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.bunifuImageButton5.TabIndex = 8;
-            this.bunifuImageButton5.TabStop = false;
-            this.bunifuImageButton5.Zoom = 10;
-            this.bunifuImageButton5.Click += new System.EventHandler(this.bunifuImageButton5_Click);
-            // 
-            // bunifuImageButton1
-            // 
-            this.bunifuImageButton1.Image = global::Projector.Properties.Resources.eye_104px;
-            this.bunifuImageButton1.ImageActive = global::Projector.Properties.Resources.invisible_104px;
-            this.bunifuImageButton1.Location = new System.Drawing.Point(279, 203);
-            this.bunifuImageButton1.Name = "bunifuImageButton1";
-            this.bunifuImageButton1.Size = new System.Drawing.Size(28, 25);
-            this.bunifuImageButton1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.bunifuImageButton1.TabIndex = 7;
-            this.bunifuImageButton1.TabStop = false;
-            this.bunifuImageButton1.Zoom = 10;
-            this.bunifuImageButton1.MouseClick += new System.Windows.Forms.MouseEventHandler(this.bunifuImageButton1_MouseClick);
-            // 
-            // bunifuImageButton3
-            // 
-            this.bunifuImageButton3.Image = global::Projector.Properties.Resources.password_104px;
-            this.bunifuImageButton3.ImageActive = null;
-            this.bunifuImageButton3.Location = new System.Drawing.Point(313, 203);
-            this.bunifuImageButton3.Name = "bunifuImageButton3";
-            this.bunifuImageButton3.Size = new System.Drawing.Size(28, 25);
-            this.bunifuImageButton3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.bunifuImageButton3.TabIndex = 3;
-            this.bunifuImageButton3.TabStop = false;
-            this.bunifuImageButton3.Zoom = 0;
-            // 
-            // bunifuImageButton2
-            // 
-            this.bunifuImageButton2.Image = global::Projector.Properties.Resources.contacts_104px;
-            this.bunifuImageButton2.ImageActive = null;
-            this.bunifuImageButton2.Location = new System.Drawing.Point(313, 137);
-            this.bunifuImageButton2.Name = "bunifuImageButton2";
-            this.bunifuImageButton2.Size = new System.Drawing.Size(28, 25);
-            this.bunifuImageButton2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.bunifuImageButton2.TabIndex = 1;
-            this.bunifuImageButton2.TabStop = false;
-            this.bunifuImageButton2.Zoom = 0;
-            // 
             // Login
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -507,17 +508,17 @@
             this.Text = "Login";
             this.Load += new System.EventHandler(this.Login_Load_1);
             this.panel3.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.bunifuImageButton4)).EndInit();
             this.panel4.ResumeLayout(false);
             this.panel4.PerformLayout();
             this.guna2CustomGradientPanel1.ResumeLayout(false);
             this.guna2CustomGradientPanel1.PerformLayout();
-            this.panel1.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.bunifuImageButton4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.bunifuImageButton5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.bunifuImageButton1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.bunifuImageButton3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.bunifuImageButton2)).EndInit();
+            this.panel1.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
